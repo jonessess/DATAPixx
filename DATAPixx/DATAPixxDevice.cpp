@@ -292,7 +292,7 @@ bool DATAPixxDevice::configureDevice() {
         DPxDisableDoutPixelMode();
     }
     if (logError("Cannot configure DATAPixx digital output pixel mode")) {
-        return false;
+//        return false;
     }
     
     if (enableDigitalOutputVSYNCMode) {
