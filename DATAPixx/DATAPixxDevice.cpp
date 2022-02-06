@@ -292,6 +292,7 @@ bool DATAPixxDevice::configureDevice() {
         DPxDisableDoutPixelMode();
     }
     if (logError("Cannot configure DATAPixx digital output pixel mode")) {
+// Temp: testing to avoid exit on devices that don't support pixel mode
 //        return false;
     }
     
